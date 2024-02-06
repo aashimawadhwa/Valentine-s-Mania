@@ -6,7 +6,7 @@ const ValentineCard: React.FC<{
 }> = ({ onYesClick, onNoClick }) => {
   const handleNoHover = (event: React.MouseEvent<HTMLButtonElement>) => {
     const button = event.currentTarget;
-    const offset = 200; // Adjust this value according to your preference
+    const offset = 200;
     button.style.transform = `translate(${Math.random() * offset}px, ${
       Math.random() * offset
     }px)`;
